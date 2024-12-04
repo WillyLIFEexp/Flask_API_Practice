@@ -2,11 +2,12 @@
 This is a practice for Flask API
 
 ## :hammer_and_pick: Technologies Used
-- Programming Languages: Python
-- Backend: Flask
-- Other Libraries: Pytest
+- **Language**: Python
+- **Backend Framework**: Flask
+- **Testing Framework**: Pytest
+- **Containerization**: Docker
 
-## :gear: Installation
+## :gear: Prerequisites
 - Python 3.8+
 - [Docker](https://docs.docker.com/engine/install/) 
 
