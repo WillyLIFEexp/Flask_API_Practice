@@ -13,16 +13,17 @@ This is a practice for Flask API
 
 ## :closed_book: Project Directory Structure
 ```bash
-project-name/
-├── app/ # Application source code 
-│ ├── hello.py # Contains API endpoints 
-│ └── __init__.py # Initializes the Flask app 
-├── tests/ # Unit tests for the application 
-│ ├── test_hello.py # Tests for API endpoints 
-│ └── __init__.py # Test package initializer 
+Flask_API_Practice/
+├── app/             # Application source code 
+│ ├── hello.py       # Contains API endpoints 
+│ └── __init__.py    # Initializes the Flask app 
+├── tests/           # Unit tests for the application 
+│ ├── test_hello.py  # Tests for API endpoints 
+│ └── __init__.py    # Test package initializer
+├── imgs/            # The demo.gif 
 ├── requirements.txt # Python dependencies 
-├── Dockerfile # Docker configuration file 
-└── README.md # Documentation for the project
+├── Dockerfile       # Docker configuration file 
+└── README.md        # Documentation for the project
 ```
 
 ## :wrench: Setting up
