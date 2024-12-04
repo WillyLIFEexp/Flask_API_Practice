@@ -8,7 +8,7 @@ This is a practice for Flask API
 
 ## :gear: Installation
 - Python 3.8+
-- Docker 
+- [Docker](https://docs.docker.com/engine/install/) 
 
 ## :closed_book: Project Directory Structure
 ```bash
@@ -35,13 +35,20 @@ project-name/
     ```
     docker run -d -p 5001:5000 flask_docker
     ```
+* Stop the container by using the following command.
+    ```
+    docker stop <container-id-or-name>
+    ```
 
 ## :pencil2: Testing
 * Enter the container by the following command.
     ```
-    docker exec -it <container_id or container_name> bash
+    docker exec -it <container-id-or-name> bash
     ```
 * Running pytest to check for result
     ```
     pytest tests/test_hello.py
     ```
+
+## :tophat: Demonstration
+
