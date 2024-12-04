@@ -51,4 +51,4 @@ project-name/
     ```
 
 ## :tophat: Demonstration
-![](https://github.com/WillyLIFEexp/Flask_API_practice/blob/create_flask/imgs/demo.gif)
+![](https://github.com/WillyLIFEexp/Flask_API_practice/blob/create_flask/imgs/demo_1.gif)
