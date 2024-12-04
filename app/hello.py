@@ -11,9 +11,10 @@ app = Flask(__name__)
 def index():
     return "<p>This is the main page!</p>"
 
-@app.route("/greed/", defaults={ 'name': 'World' }, methods = ['GET'])
-@app.route('/greed/<name>')
-def show_user_profile(name):
+@app.route('/greed', methods=['GET'])
+def show_user_profile():
+    url_params = request.args 
+    name = url_params.get('name', 'World')
     return json.dumps({'message': f"Hello, {escape(name)}!"})
 
 @app.errorhandler(404)

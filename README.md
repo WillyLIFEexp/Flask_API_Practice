@@ -10,6 +10,20 @@ This is a practice for Flask API
 - Python 3.8+
 - Docker 
 
+## :closed_book: Project Directory Structure
+```bash
+project-name/
+├── app/ # Application source code 
+│ ├── hello.py # Contains API endpoints 
+│ └── __init__.py # Initializes the Flask app 
+├── tests/ # Unit tests for the application 
+│ ├── test_hello.py # Tests for API endpoints 
+│ └── __init__.py # Test package initializer 
+├── requirements.txt # Python dependencies 
+├── Dockerfile # Docker configuration file 
+└── README.md # Documentation for the project
+```
+
 ## :wrench: Setting up
 
 * Clone the Repo
@@ -29,20 +43,5 @@ This is a practice for Flask API
     ```
 * Running pytest to check for result
     ```
-    pytest test_hello.py
+    pytest tests/test_hello.py
     ```
-## Project Directory Structure
-project-name/ 
-├── app/ # Application source code 
-│ ├── init.py # Initializes the Flask app 
-│ ├── routes.py # Contains API endpoints 
-│ ├── models.py # Defines database models 
-│ └── templates/ # HTML templates for the application 
-│ └── index.html # Main HTML file for the app 
-├── tests/ # Unit tests for the application 
-│ ├── test_routes.py # Tests for API endpoints 
-│ ├── test_models.py # Tests for database models 
-│ └── init.py # Test package initializer 
-├── requirements.txt # Python dependencies 
-├── Dockerfile # Docker configuration file 
-└── README.md # Documentation for the project
