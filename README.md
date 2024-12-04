@@ -1,4 +1,4 @@
-# Flask_API_practice
+# Flask API Practice
 This is a practice for Flask API
 
 ## :hammer_and_pick: Technologies Used
