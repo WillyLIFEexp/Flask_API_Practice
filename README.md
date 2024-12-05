@@ -35,7 +35,7 @@ Flask_API_Practice/
     ```
 * Starting the container with port mapping and let container to run in the background.
     ```
-    docker run -d -p 5001:5000 flask_docker
+    docker run -d -p 5000:5000 flask_docker
     ```
 * Stop the container by using the following command.
     ```
